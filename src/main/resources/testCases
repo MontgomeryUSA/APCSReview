@@ -1,0 +1,60 @@
+public class mailingList {
+    private String studentData;
+    private int emailDigits;
+
+    public mailingList(String studentData, int emailDigits) {
+        this.studentData = studentData;
+        this.emailDigits = emailDigits;
+    }
+
+    public int numberOfPeople() {
+        if (studentData.isEmpty()) return 0;
+        int count = 1; // At least one student
+        int index = studentData.indexOf("-");
+        while (index != -1) {
+            count++;
+            index = studentData.indexOf("-", index + 1);
+        }
+        return count;
+    }
+    public String convertToEmail() {
+        if (studentData.isEmpty()) return null; // No students
+
+        String[] students = studentData.split("-");
+        StringBuilder emailList = new StringBuilder();
+
+        for (String student : students) {
+            String[] details = student.split("/"); // Split into first name, last name, ID
+            if (details.length != 3) continue; // Skip invalid data
+
+            String firstName = details[0];
+            String lastName = details[1];
+            String studentID = details[2].substring(0, Math.min(emailDigits, details[2].length())); // Trim ID
+
+            emailList.append(firstName).append(".")
+                    .append(lastName).append(".")
+                    .append(studentID).append("@k12.friscoisd.org,");
+
+        }
+        return emailList.length() > 0 ? emailList.substring(0, emailList.length() - 1) : null; // Remove trailing comma
+    }
+}
+
+
+    public void eatFood(int foodNum) {
+        totalCarbs += numCarbs(foodNum);
+        totalFats += numFats(foodNum);
+        totalProteins += numProteins(foodNum);
+    }
+
+    public int eatUntilTarget(int[] foodList, int targetFats, int targetCarbs, int targetProteins) {
+        int foodsEaten = 0;
+        for (int foodNum : foodList) {
+            eatFood(foodNum);
+            foodsEaten++;
+            if (totalCarbs >= targetCarbs && totalFats >= targetFats && totalProteins >= targetProteins) {
+                return foodsEaten;
+            }
+        }
+        return -1;
+    }
