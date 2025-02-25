@@ -596,3 +596,55 @@
 2025-02-18 21:03:57,655 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Running provided shutdown stop hooks - AsyncAppender-Worker-ASYNCSTDOUT
 2025-02-18 21:03:57,657 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server stopped: {running_time: 14m 10.588s, instances_count: 1, views_count: 1, os_name: Windows 11, jpro_version: 2025.1.0, reason: jvm-shutdown} - AsyncAppender-Worker-ASYNCSTDOUT
 2025-02-18 21:03:57,657 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Closing the server -> used memory: 158 MB  -  free system memory: 7606 MB - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,839 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Starting the server - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,840 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ -  *** Starting JPro: https://www.jpro.one/ *** - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,840 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - OS: Windows 11 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,850 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JPro: 2025.1.0 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,850 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Java version: 21.0.6 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,850 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JVM: 21.0.6 Eclipse Adoptium - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,852 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JavaFX jar: file:/C:/Users/julia/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:38,857 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Configuring logging from url: 'jar:file:/C:/Users/julia/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml' - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:39,797 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JavaFX version: 23.0.1-jpro+3 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:39,850 [INFO] in JavaFX Application Thread - G1 Young Generation - JavaFX Application Thread
+2025-02-24 22:08:39,850 [INFO] in JavaFX Application Thread - G1 Concurrent GC - JavaFX Application Thread
+2025-02-24 22:08:39,851 [INFO] in JavaFX Application Thread - G1 Old Generation - JavaFX Application Thread
+2025-02-24 22:08:39,868 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - finished init! - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:39,883 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server started: {start_time: 1740456518824, os_name: Windows 11, jpro_version: 2025.1.0} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:40,224 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] a.e.s.Slf4jLogger - Slf4jLogger started - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:40,759 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] play.api.Play - Application started (Prod) (no global state) - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:41,359 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Enabling HTTP/2 on Akka HTTP server... - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:41,360 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:42,987 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - application requested: default params: Map() - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:42,991 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - Creating Application: default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:42,993 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - remoteAddress 0:0:0:0:0:0:0:1 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:42,993 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - host          localhost:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:42,993 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - uri           /app/ws/default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:43,938 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[31mWARN [0;39m] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico' - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:43,984 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1814148373, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:44,209 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1814148373, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:45,647 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:47,917 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:48,302 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:48,511 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:48,797 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:48,813 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-24 22:08:53,850 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1814148373, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,852 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,852 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - Application closed: - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,857 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - startTime      : Mon Feb 24 22:08:53 CST 2025       - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,857 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.000  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,858 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000   - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,859 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,859 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,859 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - raw            : 113788 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,859 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - zipped         : 34875 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:53,859 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:08:54,847 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1814148373, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,885 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Parent process is not alive anymore. Shutting down. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,886 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.a.i.l.c.CoordinatedShutdownSupport - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,887 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] a.a.CoordinatedShutdown - Running CoordinatedShutdown with reason [ServerStoppedReason] - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,888 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Stopping Akka HTTP server... - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,891 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,899 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Running provided shutdown stop hooks - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,901 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server stopped: {running_time: 23.06s, instances_count: 0, views_count: 0, os_name: Windows 11, jpro_version: 2025.1.0, reason: jvm-shutdown} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-24 22:09:01,901 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Closing the server -> used memory: 154 MB  -  free system memory: 8568 MB - AsyncAppender-Worker-ASYNCSTDOUT

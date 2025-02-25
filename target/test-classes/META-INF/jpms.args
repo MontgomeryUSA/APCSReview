@@ -1,0 +1,4 @@
+--patch-module
+one.jpro.hellojpro=_
+--add-reads
+one.jpro.hellojpro=ALL-UNNAMED
