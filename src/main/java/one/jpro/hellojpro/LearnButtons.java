@@ -202,7 +202,7 @@ public class LearnButtons {
             button.setScaleY(1.0);
         });
 
-        button.setOnAction(e -> testClassInstance.setSceneForVideo(actionId));
+        //button.setOnAction(e -> testClassInstance.setSceneForVideo(actionId));
 
         return button;
     }

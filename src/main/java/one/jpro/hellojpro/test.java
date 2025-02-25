@@ -1,12 +1,12 @@
 package one.jpro.hellojpro;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-
 import java.io.FileNotFoundException;
 
-public class test extends Application {
+import com.jpro.webapi.JProApplication;
+
+import javafx.stage.Stage;
+
+public class test extends JProApplication {
 
     private Stage mainStage;
     private snakeScene gameInstance;
@@ -15,7 +15,7 @@ public class test extends Application {
     private MockTestButtons mockTestInstance;
     private MockTestQuiz mockTestQuizInstance;
     private LearnButtons learnButtonsInstance;
-    private videoQuiz videoQuizInstance;
+    //private videoQuiz videoQuizInstance;
     private FRQStuff frqStuffInstance;
     //todo replace when quiz class is setup right, use as a backend way to handle different quizzes and class updates, keep UI seperated into UI classes
     @Override
@@ -73,27 +73,27 @@ public class test extends Application {
                 gameInstance = null;
                 mockTestInstance = null;
                 frqStuffInstance = null;
-                videoQuizInstance = null;
+                //videoQuizInstance = null;
             }
             case 1 ->{
                 homePageInstance = null;
                 mockTestInstance = null;
                 gameInstance = null;
                 frqStuffInstance = null;
-                videoQuizInstance = null;
+                //videoQuizInstance = null;
             }
             case 2 ->{
                 learnButtonsInstance = null;
                 gameInstance = null;
                 homePageInstance = null;
                 frqStuffInstance = null;
-                videoQuizInstance = null;
+                //videoQuizInstance = null;
             }
             case 3 ->{
                 homePageInstance = null;
                 mockTestInstance = null;
                 frqStuffInstance = null;
-                videoQuizInstance = null;
+                //videoQuizInstance = null;
                 learnButtonsInstance = null;
             }
             case 5->{
@@ -102,7 +102,7 @@ public class test extends Application {
                 learnButtonsInstance = null;
                 gameInstance = null;
                 frqStuffInstance = null;
-                videoQuizInstance = null;
+                //videoQuizInstance = null;
             }
 
         }
@@ -121,12 +121,12 @@ public class test extends Application {
 
         }
     }
-    public void setSceneForVideo(int i) {
-        switch (i) {
-            case 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 -> {
-                videoQuizInstance = new videoQuiz();
-                mainStage.setScene(videoQuizInstance.getVideoScene(thisClassInstance, i, mainStage));
-            }
-        }
-    }
+    //public void setSceneForVideo(int i) {
+        //switch (i) {
+            //case 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 -> {
+                //videoQuizInstance = new videoQuiz();
+                //mainStage.setScene(videoQuizInstance.getVideoScene(thisClassInstance, i, mainStage));
+            //}
+        //}
+    //}
 }

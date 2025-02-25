@@ -32,7 +32,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>one.jpro.hellojpro.HelloJPro</mainClass>
+                    <mainClass>one.jpro.hellojpro.test</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -40,7 +40,7 @@
                 <artifactId>jpro-maven-plugin</artifactId>
                 <version>${jpro.version}</version>
                 <configuration>
-                    <mainClassName>one.jpro.hellojpro.HelloJPro</mainClassName>
+                    <mainClassName>one.jpro.hellojpro.test</mainClassName>
                 </configuration>
             </plugin>
         </plugins>

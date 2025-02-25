@@ -209,32 +209,32 @@ public class FRQStuff {
         });
 
         runButton.setOnAction(e -> {
-                    //codeBase.setCurrentQuestion(currentQuestion);
-                    //String userCode = codeEditor.getText();
-                    //String fullCode;
-                    //if (currentQuestion == 1) {
+                    codeBase.setCurrentQuestion(currentQuestion);
+                    String userCode = codeEditor.getText();
+                    String fullCode;
+                    if (currentQuestion == 1) {
                         // Wrap user code inside the provided class scaffolding
-                     //   fullCode = codeBase.getFRQCProvidedCode() + "\n" + userCode + "\n" + codeBase.getClassClosingBracket();
-                    //} else if (currentQuestion == 2) {
-                    //    // Assume user wrote a complete class for Question 2
-                    //    fullCode = userCode;
-                   // } else {
-                   //     outputArea.setText("Invalid question setup.");
-                   //     return;
-                   // }
+                        fullCode = codeBase.getFRQCProvidedCode() + "\n" + userCode + "\n" + codeBase.getClassClosingBracket();
+                    } else if (currentQuestion == 2) {
+                        // Assume user wrote a complete class for Question 2
+                        fullCode = userCode;
+                    } else {
+                        outputArea.setText("Invalid question setup.");
+                        return;
+                    }
 
-                   // CompilerTest compilerTest = new CompilerTest(codeBase);
-                  //  try {
-                   //     String programOutput = compilerTest.CompileAndRunTest(fullCode);
-                  //      if (programOutput.startsWith("Compilation Error:")) {
-                  //          outputArea.setText("Compilation Error:\n" + programOutput + "\nCode Submitted:\n" + fullCode);
-                  //          return;
-                  //      }
-                  //      String feedback = grader.grade(userCode, programOutput, currentQuestion);
-                  //      outputArea.setText(feedback);
-                  //  } catch (Exception ex) {
-                  //      outputArea.setText("Error during execution: " + ex.getMessage());
-                  //  }
+                    CompilerTest compilerTest = new CompilerTest(codeBase);
+                    try {
+                        String programOutput = compilerTest.CompileAndRunTest(fullCode);
+                        if (programOutput.startsWith("Compilation Error:")) {
+                            outputArea.setText("Compilation Error:\n" + programOutput + "\nCode Submitted:\n" + fullCode);
+                            return;
+                        }
+                        String feedback = grader.grade(userCode, programOutput, currentQuestion);
+                        outputArea.setText(feedback);
+                    } catch (Exception ex) {
+                        outputArea.setText("Error during execution: " + ex.getMessage());
+                    }
                });
         textMoverV.getChildren().addAll(Question, baseCode, textMoverH);
         textMoverH.getChildren().addAll(codeEditor, runButton, outputArea);
