@@ -1,17 +1,32 @@
 package one.jpro.hellojpro;
 
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.scene.Scene;
-import javafx.scene.control.*;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.*;
-import javafx.stage.Stage;
-
 import java.io.FileNotFoundException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
+
+import javafx.animation.PauseTransition;
+import javafx.application.Platform;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.BackgroundImage;
+import javafx.scene.layout.BackgroundPosition;
+import javafx.scene.layout.BackgroundRepeat;
+import javafx.scene.layout.BackgroundSize;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.util.Duration;
 
 public class MockTestQuiz {
     private test testClassInstance;
@@ -22,7 +37,9 @@ public class MockTestQuiz {
     private VBox mainLayout;
     private int attemptsLeft = 2;
     private int answersCorrect = 0;
-
+    private Label notificationLabel;
+    private Pane inputBlocker;
+    private StackPane overlayPane;
     public Scene getQuizScreenAndQuestions(test test, int i) {
         testClassInstance = test;
         questions = getQuestions(i);
@@ -39,18 +56,43 @@ public class MockTestQuiz {
     }
 
     private void setUpQuizScreenAndQuestions() {
-        mainLayout = new VBox(30);
-        mainLayout.setPadding(new Insets(40));
-        mainLayout.setAlignment(Pos.CENTER);
-        mainLayout.setPrefSize(1920, 1080);
+    mainLayout = new VBox(30);
+    mainLayout.setPadding(new Insets(40));
+    mainLayout.setAlignment(Pos.CENTER);
+    mainLayout.setPrefSize(1920, 1080);
+    mainLayout.setStyle("-fx-background-color: #2c2c2c;"); // Dark gray, instead of black
 
-        loadNextQuestion();
+    // Initialize overlay to block input
+    inputBlocker = new Pane();
+    inputBlocker.setStyle("-fx-background-color: rgba(0, 0, 0, 0.5);"); // Semi-transparent dark overlay
+    inputBlocker.setVisible(false);
 
-        quizScene = new Scene(mainLayout, 1920, 1080);
-    }
+    // Notification label setup
+    notificationLabel = new Label();
+    notificationLabel.setStyle(
+        "-fx-background-color: rgba(50, 50, 50, 0.9); " +  // Dark gray with transparency
+        "-fx-text-fill: white; " +
+        "-fx-padding: 20px; " +
+        "-fx-font-size: 22px; " +
+        "-fx-font-weight: bold; " +
+        "-fx-border-radius: 10px; " +
+        "-fx-background-radius: 10px;"
+    );
+    notificationLabel.setVisible(false);
+
+    // StackPane to center the notification label
+    StackPane notificationOverlay = new StackPane(notificationLabel);
+    notificationOverlay.setAlignment(Pos.CENTER);
+    notificationOverlay.setVisible(false);
+
+    overlayPane = new StackPane(inputBlocker, mainLayout, notificationOverlay);
+    
+    loadNextQuestion();
+    quizScene = new Scene(overlayPane, 1920, 1080);
+}
 
     private void loadNextQuestion() {
-        mainLayout.getChildren().clear();
+        mainLayout.getChildren().retainAll(notificationLabel);
         attemptsLeft = 2;
 
         if (questionNumber >= numberOfQuestions) {
@@ -109,25 +151,8 @@ public class MockTestQuiz {
             answerBox.getChildren().add(radioButton);
         }
 
-        Button submitButton = new Button();
-        ImageView Button2Pic = new ImageView("/4SubmitGrey.png");
-        ImageView Button2PicH = new ImageView("/4SubmitRandow.png");
-        Button2Pic.setFitWidth(356);
-        Button2Pic.setFitHeight(108);
-        submitButton.setGraphic(Button2Pic);
-        submitButton.setStyle("-fx-background-color: transparent; -fx-border-color: transparent;");
-        submitButton.setOnMouseEntered(e -> submitButton.setGraphic(Button2PicH));
-        submitButton.setOnMouseExited(e -> submitButton.setGraphic(Button2Pic));
-        submitButton.setOnMousePressed(e -> {
-            submitButton.setGraphic(Button2PicH);
-            submitButton.setScaleX(0.95);
-            submitButton.setScaleY(0.95);
-        });
-        submitButton.setOnMouseReleased(e -> {
-            submitButton.setGraphic(Button2PicH);
-            submitButton.setScaleX(1.0);
-            submitButton.setScaleY(1.0);
-        });
+        Button submitButton = createHoverButton("/images/4SubmitGrey.png", "/images/4SubmitRandow.png", 356, 108, "Submit Button");
+       
         submitButton.setOnAction(e -> handleAnswer(answerGroup, answers, displayingQ.getCorrectA()));
 
         VBox answerContainer = new VBox(20, answerBox, submitButton);
@@ -140,7 +165,7 @@ public class MockTestQuiz {
         RadioButton selected = (RadioButton) group.getSelectedToggle();
 
         if (selected == null) {
-            showAlert("No Answer Selected! Please select an answer before submitting.");
+            showNotification("No Answer Selected! Please select an answer before submitting.");
             return;
         }
 
@@ -148,16 +173,16 @@ public class MockTestQuiz {
         String correctAnswer = answers.get(correctIndex);
 
         if (selectedAnswer.equals(correctAnswer)) {
-            showAlert("Correct! Great job! Moving to the next question.");
+            showNotification("Correct! Great job! Moving to the next question.");
             answersCorrect++;
             questionNumber++;
             loadNextQuestion();
         } else {
             if (attemptsLeft > 1) {
                 attemptsLeft--;
-                showAlert("Incorrect! Try again! You have " + attemptsLeft + " attempt(s) left.");
+                showNotification("Incorrect! Try again! You have " + attemptsLeft + " attempt(s) left.");
             } else {
-                showAlert("Incorrect! Out of attempts! Moving to the next question.");
+                showNotification("Incorrect! Out of attempts! Moving to the next question.");
                 questionNumber++;
                 loadNextQuestion();
             }
@@ -175,5 +200,92 @@ public class MockTestQuiz {
             return null;
         }
         return questions.remove(new Random().nextInt(questions.size()));
+    }
+    private void showNotification(String message) {
+        Platform.runLater(() -> {
+            System.out.println("Showing notification: " + message);
+            
+            notificationLabel.setText(message);
+            notificationLabel.setVisible(true);
+            overlayPane.getChildren().get(2).setVisible(true); // Show overlay
+            inputBlocker.setVisible(true); // Block user input
+            
+            // Pause for 2 seconds then hide the notification
+            PauseTransition pause = new PauseTransition(Duration.seconds(2));
+            pause.setOnFinished(event -> {
+                System.out.println("Hiding notification");
+                notificationLabel.setVisible(false);
+                overlayPane.getChildren().get(2).setVisible(false); // Hide overlay
+                inputBlocker.setVisible(false); // Re-enable input
+            });
+            pause.play();
+        });
+    }
+
+    private ImageView loadImageView(String path, int width, int height) {
+        System.out.println("🔍 Attempting to load ImageView for: " + path);
+        Image img = loadImage(path);
+        if (img != null) {
+            System.out.println("✅ ImageView successfully loaded for: " + path);
+            ImageView imgView = new ImageView(img);
+            imgView.setFitWidth(width);
+            imgView.setFitHeight(height);
+            return imgView;
+        }
+        System.err.println("❌ Failed to load ImageView for: " + path);
+        return null;
+    }
+
+    // Helper: Load Image correctly for JPro
+    private Image loadImage(String path) {
+        System.out.println("🟠 Attempting to load image: " + path);
+        
+        URL imageUrl = getClass().getResource(path);
+        if (imageUrl == null) {
+            System.err.println("❌ ERROR: Image not found at path: " + path);
+            return null;
+        }
+        
+        System.out.println("✅ Image found! Loading: " + imageUrl.toExternalForm());
+        return new Image(imageUrl.toExternalForm(), false); // Prevent caching issues
+    }
+
+    // Helper: Load Background Image
+    private BackgroundImage loadBackground(String path) {
+        System.out.println("🟡 loadBackground() called with path: " + path);
+        Image img = loadImage(path);
+
+        if (img != null) {
+            System.out.println("✅ Background image loaded successfully: " + path);
+            return new BackgroundImage(
+                    img, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
+                    BackgroundPosition.CENTER, new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, false)
+            );
+        } else {
+            System.err.println("❌ Background image failed to load: " + path);
+        }
+        return null;
+    }
+    private Button createHoverButton(String defaultPath, String hoverPath, int width, int height, String name) {
+        Button button = new Button();
+        ImageView defaultImage = loadImageView(defaultPath, width, height);
+        ImageView hoverImage = loadImageView(hoverPath, width, height);
+
+        if (defaultImage != null && hoverImage != null) {
+            button.setGraphic(defaultImage);
+        }
+
+        button.setStyle("-fx-background-color: transparent; -fx-border-color: transparent;");
+        button.setOnMouseEntered(e -> {
+            button.setGraphic(hoverImage);
+            System.out.println(name + " - Hovered");
+        });
+        button.setOnMouseExited(e -> button.setGraphic(defaultImage));
+
+        button.setOnAction(e -> {
+            System.out.println(name + " - Clicked");
+        });
+
+        return button;
     }
 }

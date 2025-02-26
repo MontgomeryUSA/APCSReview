@@ -24,3 +24,11 @@
 2025-02-18 21:03:57,657 [INFO] in application-akka.actor.default-dispatcher-21 - Closing the server -> used memory: 158 MB  -  free system memory: 7606 MB
 2025-02-24 22:08:38,824 [INFO] in scala-execution-context-global-47 - Starting the server
 2025-02-24 22:09:01,900 [INFO] in application-akka.actor.default-dispatcher-9 - Closing the server -> used memory: 154 MB  -  free system memory: 8568 MB
+2025-02-25 20:41:56,819 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-02-25 20:42:13,909 [INFO] in application-akka.actor.default-dispatcher-13 - Closing the server -> used memory: 167 MB  -  free system memory: 9183 MB
+2025-02-25 20:54:17,607 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-02-25 20:54:47,711 [INFO] in application-akka.actor.default-dispatcher-11 - Closing the server -> used memory: 186 MB  -  free system memory: 8843 MB
+2025-02-25 21:22:05,716 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-02-25 21:22:50,854 [INFO] in application-akka.actor.default-dispatcher-8 - Closing the server -> used memory: 74 MB  -  free system memory: 9006 MB
+2025-02-25 21:32:14,423 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-02-25 21:32:40,532 [INFO] in application-akka.actor.default-dispatcher-21 - Closing the server -> used memory: 182 MB  -  free system memory: 9193 MB
