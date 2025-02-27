@@ -1,6 +1,7 @@
 package one.jpro.hellojpro;
 
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class FRQCodeBase {
     private int currentQuestion = 1;
@@ -18,7 +19,7 @@ public class FRQCodeBase {
             case 1:
                 return getCalorieCounterCode();
             case 2:
-                return ""; // Question 2 requires full class
+                return ""; 
             default:
                 return "// No provided code for this question.\n";
         }

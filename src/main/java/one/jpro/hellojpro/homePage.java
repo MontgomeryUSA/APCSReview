@@ -178,5 +178,11 @@ public class homePage {
 
     private void handleReviewGameButtonClick(ActionEvent event) {
         System.out.println("Review game button clicked!");
+        try {
+            testClassInstance.changeScene(3);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 }

@@ -1,7 +1,9 @@
 package one.jpro.hellojpro;
 
+import java.io.FileNotFoundException;
 import java.net.URL;
 
+import javafx.event.ActionEvent;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -53,9 +55,32 @@ public class MockTestButtons {
         // Create buttons
         Button button1 = createHoverButton("/images/1HomeButtonGrey.png","/images/2HomeButtonColored.png" ,370, 87, "Home Button");
         Button button2 = createHoverButton("/images/1LearnButtonGrey.png", "/images/2LearnButtonColored.png", 370, 87, "Learn Button");
-        Button button3 = createImageButton("/images/1MockTestButtonGrey.png",  370, 87, "Mock Test Button");
+        Button button3 = createImageButton("/images/2MockTestButtonColored.png",  370, 87, "Mock Test Button");
         Button button4 = createHoverButton("/images/1ReviewGameButtonGrey.png", "/images/2ReviewGameColored.png", 370, 87, "Review Game Button");
-
+        button1.setOnAction((ActionEvent actionEvent) -> {
+            try {
+                testClassInstance.changeScene(0);
+            } catch (FileNotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        });
+        button2.setOnAction((ActionEvent actionEvent) -> {
+            try {
+                testClassInstance.changeScene(1);
+            } catch (FileNotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        });
+        button4.setOnAction((ActionEvent actionEvent) -> {
+            try {
+                testClassInstance.changeScene(3);
+            } catch (FileNotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        });
 
         VBox buttonContainer = new VBox(10, button1, button2, button3, button4);
         buttonContainer.setAlignment(Pos.CENTER);

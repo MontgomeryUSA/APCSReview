@@ -1,8 +1,18 @@
 package one.jpro.hellojpro;
 
-import java.io.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CompilerTest {
     private final FRQCodeBase codeBase;
@@ -14,7 +24,6 @@ public class CompilerTest {
     public String CompileAndRunTest(String userCode) {
         String className = "UserClass";
         try {
-            // Extract the class name from user code
             Pattern classNamePattern = Pattern.compile("public\\s+class\\s+(\\w+)");
             Matcher matcher = classNamePattern.matcher(userCode);
             if (matcher.find()) {
@@ -22,29 +31,24 @@ public class CompilerTest {
             }
             String filename = className + ".java";
 
-            // Write user code to file
             File file = new File(filename);
             try (FileWriter writer = new FileWriter(file)) {
                 writer.write(userCode);
             }
 
-            // Compile the code
             Process compileProcess = Runtime.getRuntime().exec("javac " + filename);
             compileProcess.waitFor();
 
-            // Capture compilation errors
             String compileErrors = readProcessStream(compileProcess.getErrorStream());
             if (!compileErrors.isBlank()) {
                 return "Compilation Error:\n" + compileErrors;
             }
 
-            // Run compiled code
             Process runProcess = Runtime.getRuntime().exec("java " + className);
             ExecutorService executor = Executors.newSingleThreadExecutor();
             Future<String> runTask = executor.submit(() -> readProcessStream(runProcess.getInputStream()));
             Future<String> errorTask = executor.submit(() -> readProcessStream(runProcess.getErrorStream()));
 
-            // Handle timeouts
             String result;
             try {
                 result = runTask.get(3, TimeUnit.SECONDS);
@@ -68,7 +72,6 @@ public class CompilerTest {
         }
     }
 
-    // Helper method to read the process stream
     private String readProcessStream(InputStream inputStream) throws IOException {
         StringBuilder output = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {

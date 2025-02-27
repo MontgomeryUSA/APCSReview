@@ -213,10 +213,8 @@ public class FRQStuff {
                     String userCode = codeEditor.getText();
                     String fullCode;
                     if (currentQuestion == 1) {
-                        // Wrap user code inside the provided class scaffolding
                         fullCode = codeBase.getFRQCProvidedCode() + "\n" + userCode + "\n" + codeBase.getClassClosingBracket();
                     } else if (currentQuestion == 2) {
-                        // Assume user wrote a complete class for Question 2
                         fullCode = userCode;
                     } else {
                         outputArea.setText("Invalid question setup.");
@@ -247,7 +245,7 @@ public class FRQStuff {
     }
 
     private VBox setUpSideBar(){
-        VBox sideBar = new VBox(15);  // 15px spacing
+        VBox sideBar = new VBox(15); 
         sideBar.setAlignment(Pos.CENTER);
 
         // Button 1

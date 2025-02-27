@@ -11,7 +11,6 @@ import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
@@ -19,10 +18,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BackgroundImage;
-import javafx.scene.layout.BackgroundPosition;
-import javafx.scene.layout.BackgroundRepeat;
-import javafx.scene.layout.BackgroundSize;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
@@ -56,43 +51,40 @@ public class MockTestQuiz {
     }
 
     private void setUpQuizScreenAndQuestions() {
-    mainLayout = new VBox(30);
-    mainLayout.setPadding(new Insets(40));
-    mainLayout.setAlignment(Pos.CENTER);
-    mainLayout.setPrefSize(1920, 1080);
-    mainLayout.setStyle("-fx-background-color: #2c2c2c;"); // Dark gray, instead of black
+        mainLayout = new VBox(30);
+        mainLayout.setPadding(new Insets(40));
+        mainLayout.setAlignment(Pos.CENTER);
+        mainLayout.setPrefSize(1920, 1080);
 
-    // Initialize overlay to block input
-    inputBlocker = new Pane();
-    inputBlocker.setStyle("-fx-background-color: rgba(0, 0, 0, 0.5);"); // Semi-transparent dark overlay
-    inputBlocker.setVisible(false);
-
-    // Notification label setup
-    notificationLabel = new Label();
-    notificationLabel.setStyle(
-        "-fx-background-color: rgba(50, 50, 50, 0.9); " +  // Dark gray with transparency
-        "-fx-text-fill: white; " +
-        "-fx-padding: 20px; " +
-        "-fx-font-size: 22px; " +
-        "-fx-font-weight: bold; " +
-        "-fx-border-radius: 10px; " +
-        "-fx-background-radius: 10px;"
-    );
-    notificationLabel.setVisible(false);
-
-    // StackPane to center the notification label
-    StackPane notificationOverlay = new StackPane(notificationLabel);
-    notificationOverlay.setAlignment(Pos.CENTER);
-    notificationOverlay.setVisible(false);
-
-    overlayPane = new StackPane(inputBlocker, mainLayout, notificationOverlay);
     
-    loadNextQuestion();
-    quizScene = new Scene(overlayPane, 1920, 1080);
-}
+        // Initialize overlay to block input (START HIDDEN)
+        inputBlocker = new Pane();
+        inputBlocker.setStyle("-fx-background-color: rgba(0, 0, 0, 0.5);");
+        inputBlocker.setVisible(false); // Ensure it starts hidden
+    
+        // Notification label setup
+        notificationLabel = new Label();
+        notificationLabel.setStyle(
+            "-fx-background-color: rgba(50, 50, 50, 0.9); " +
+            "-fx-text-fill: white; " +
+            "-fx-padding: 20px; " +
+            "-fx-font-size: 22px; " +
+            "-fx-font-weight: bold; " +
+            "-fx-border-radius: 10px; " +
+            "-fx-background-radius: 10px;"
+        );
+        notificationLabel.setVisible(false);
+    
+        // StackPane for overlay
+        overlayPane = new StackPane(mainLayout, inputBlocker, notificationLabel);
+        
+        loadNextQuestion();
+        quizScene = new Scene(overlayPane, 1920, 1080);
+    }
+    
 
     private void loadNextQuestion() {
-        mainLayout.getChildren().retainAll(notificationLabel);
+        mainLayout.getChildren().retainAll(inputBlocker,notificationLabel);
         attemptsLeft = 2;
 
         if (questionNumber >= numberOfQuestions) {
@@ -188,11 +180,6 @@ public class MockTestQuiz {
             }
         }
     }
-    private void showAlert(String message) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setContentText(message);
-        alert.showAndWait();
-    }
 
     private Question getRandomQuestion() {
         if (questions.isEmpty()) {
@@ -207,65 +194,54 @@ public class MockTestQuiz {
             
             notificationLabel.setText(message);
             notificationLabel.setVisible(true);
-            overlayPane.getChildren().get(2).setVisible(true); // Show overlay
-            inputBlocker.setVisible(true); // Block user input
             
-            // Pause for 2 seconds then hide the notification
+            // Show overlay ONLY when notification is visible
+            inputBlocker.setVisible(true);
+    
+            // Pause for 2 seconds, then hide everything
             PauseTransition pause = new PauseTransition(Duration.seconds(2));
             pause.setOnFinished(event -> {
                 System.out.println("Hiding notification");
                 notificationLabel.setVisible(false);
-                overlayPane.getChildren().get(2).setVisible(false); // Hide overlay
-                inputBlocker.setVisible(false); // Re-enable input
+                
+                // Ensure the inputBlocker disappears AFTER the notification
+                inputBlocker.setVisible(false);
             });
             pause.play();
         });
     }
+    
 
     private ImageView loadImageView(String path, int width, int height) {
-        System.out.println("🔍 Attempting to load ImageView for: " + path);
+        System.out.println("Attempting to load ImageView for: " + path);
         Image img = loadImage(path);
         if (img != null) {
-            System.out.println("✅ ImageView successfully loaded for: " + path);
+            System.out.println("ImageView successfully loaded for: " + path);
             ImageView imgView = new ImageView(img);
             imgView.setFitWidth(width);
             imgView.setFitHeight(height);
             return imgView;
         }
-        System.err.println("❌ Failed to load ImageView for: " + path);
+        System.err.println("Failed to load ImageView for: " + path);
         return null;
     }
 
     // Helper: Load Image correctly for JPro
     private Image loadImage(String path) {
-        System.out.println("🟠 Attempting to load image: " + path);
+        System.out.println("Attempting to load image: " + path);
         
         URL imageUrl = getClass().getResource(path);
         if (imageUrl == null) {
-            System.err.println("❌ ERROR: Image not found at path: " + path);
+            System.err.println("ERROR: Image not found at path: " + path);
             return null;
         }
         
-        System.out.println("✅ Image found! Loading: " + imageUrl.toExternalForm());
+        System.out.println("Image found! Loading: " + imageUrl.toExternalForm());
         return new Image(imageUrl.toExternalForm(), false); // Prevent caching issues
     }
 
     // Helper: Load Background Image
-    private BackgroundImage loadBackground(String path) {
-        System.out.println("🟡 loadBackground() called with path: " + path);
-        Image img = loadImage(path);
 
-        if (img != null) {
-            System.out.println("✅ Background image loaded successfully: " + path);
-            return new BackgroundImage(
-                    img, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
-                    BackgroundPosition.CENTER, new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, false)
-            );
-        } else {
-            System.err.println("❌ Background image failed to load: " + path);
-        }
-        return null;
-    }
     private Button createHoverButton(String defaultPath, String hoverPath, int width, int height, String name) {
         Button button = new Button();
         ImageView defaultImage = loadImageView(defaultPath, width, height);
