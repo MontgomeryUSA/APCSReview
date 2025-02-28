@@ -1355,3 +1355,392 @@
 2025-02-25 21:32:40,530 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Running provided shutdown stop hooks - AsyncAppender-Worker-ASYNCSTDOUT
 2025-02-25 21:32:40,532 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server stopped: {running_time: 26.075s, instances_count: 0, views_count: 0, os_name: Windows 11, jpro_version: 2025.1.0, reason: jvm-shutdown} - AsyncAppender-Worker-ASYNCSTDOUT
 2025-02-25 21:32:40,532 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Closing the server -> used memory: 182 MB  -  free system memory: 9193 MB - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,165 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Starting the server - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,166 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ -  *** Starting JPro: https://www.jpro.one/ *** - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,166 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - OS: Windows 11 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,177 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JPro: 2025.1.0 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,178 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Java version: 21.0.6 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,178 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JVM: 21.0.6 Eclipse Adoptium - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,179 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JavaFX jar: file:/C:/Users/julia/.m2/repository/org/openjfx/javafx-graphics/23.0.1-jpro+3/javafx-graphics-23.0.1-jpro+3-win.jar - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:34,193 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Configuring logging from url: 'jar:file:/C:/Users/julia/.m2/repository/one/jpro/jpro-server_2.12/2025.1.0/jpro-server_2.12-2025.1.0.jar!/logback-jpro-default.xml' - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:35,079 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - JavaFX version: 23.0.1-jpro+3 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:35,127 [INFO] in JavaFX Application Thread - G1 Young Generation - JavaFX Application Thread
+2025-02-27 22:48:35,127 [INFO] in JavaFX Application Thread - G1 Concurrent GC - JavaFX Application Thread
+2025-02-27 22:48:35,127 [INFO] in JavaFX Application Thread - G1 Old Generation - JavaFX Application Thread
+2025-02-27 22:48:35,149 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - finished init! - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:35,158 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server started: {start_time: 1740718114148, os_name: Windows 11, jpro_version: 2025.1.0} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:35,537 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] a.e.s.Slf4jLogger - Slf4jLogger started - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:36,080 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] play.api.Play - Application started (Prod) (no global state) - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:36,603 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Enabling HTTP/2 on Akka HTTP server... - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:36,603 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Listening for HTTP on /[0:0:0:0:0:0:0:0]:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,169 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - application requested: default params: Map() - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,174 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - Creating Application: default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,176 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - remoteAddress 0:0:0:0:0:0:0:1 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,176 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - host          localhost:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,176 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - uri           /app/ws/default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,389 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[31mWARN [0;39m] c.jpro - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico' - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,447 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1049725549, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:38,559 [INFO] in JavaFX Application Thread - 🟢 getHomePageScene() called! - JavaFX Application Thread
+2025-02-27 22:48:38,562 [INFO] in JavaFX Application Thread - 🔍 Attempting to load background: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:48:38,562 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:48:38,562 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:48:38,562 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:48:38,624 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:48:38,624 [INFO] in JavaFX Application Thread - ✅ Background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:48:38,628 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,628 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,628 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,629 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,632 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,632 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,632 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,633 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,633 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,633 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,633 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,634 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,636 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,636 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,636 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,637 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,637 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,637 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,637 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,638 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,638 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,638 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,640 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,641 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:38,641 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,641 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,641 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,642 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:38,644 [INFO] in JavaFX Application Thread - 🔍 Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:38,644 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:38,644 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:38,644 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:38,653 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:38,653 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:48:38,778 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1049725549, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:41,203 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:42,111 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:42,334 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:42,447 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:42,847 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:43,039 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:43,103 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:43,345 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:43,648 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:43,855 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:44,702 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:45,582 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:45,630 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:45,694 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:45,982 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:46,031 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:46,142 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:48:46,612 [INFO] in JavaFX Application Thread - Review game button clicked! - JavaFX Application Thread
+2025-02-27 22:48:46,627 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,628 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,628 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,629 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,629 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,629 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,629 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,631 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,631 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,631 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,631 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,632 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,632 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,632 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,632 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,633 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,633 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,634 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,634 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,635 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,635 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,635 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,635 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,636 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:48:46,636 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,636 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,636 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,637 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:48:46,638 [INFO] in JavaFX Application Thread - Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:46,638 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:46,638 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:46,638 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:46,645 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:48:46,645 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:48:46,679 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:48:47,039 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:52,562 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1049725549, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,564 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,564 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - Application closed: - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,567 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - startTime      : Thu Feb 27 22:49:52 CST 2025       - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,567 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.000  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,567 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.000   - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,568 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,568 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,568 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - raw            : 2454920 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,568 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - zipped         : 598314 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,568 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,907 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - application requested: default params: Map() - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,907 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - Creating Application: default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,907 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - remoteAddress 0:0:0:0:0:0:0:1 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,907 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - host          localhost:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:52,907 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro - uri           /app/ws/default - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:53,008 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View created: {app_name: default, host_name: localhost:8080, instance_id: 1463815926, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:53,010 [INFO] in JavaFX Application Thread - 🟢 getHomePageScene() called! - JavaFX Application Thread
+2025-02-27 22:49:53,010 [INFO] in JavaFX Application Thread - 🔍 Attempting to load background: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:49:53,010 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:49:53,010 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:49:53,010 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:49:53,031 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/4MainScreenGraphic.png - JavaFX Application Thread
+2025-02-27 22:49:53,031 [INFO] in JavaFX Application Thread - ✅ Background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:49:53,031 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,031 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,031 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,032 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,033 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,033 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,033 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,034 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,034 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,034 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,034 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,035 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,035 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,035 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,035 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,036 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1MockTestButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,036 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,036 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,036 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,037 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,037 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,037 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,037 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,038 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:53,038 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,038 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,038 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,040 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:53,040 [INFO] in JavaFX Application Thread - 🔍 Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:53,040 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:53,040 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:53,040 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:53,047 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:53,047 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:49:53,053 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance created: {app_name: default, host_name: localhost:8080, instance_id: 1463815926, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:53,570 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1049725549, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:54,065 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:54,159 [INFO] in JavaFX Application Thread - Mock Test Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:54,287 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:54,637 [INFO] in JavaFX Application Thread - Review game button clicked! - JavaFX Application Thread
+2025-02-27 22:49:54,637 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,637 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,637 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,638 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,639 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,641 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,641 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,641 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,641 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,641 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,642 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,642 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:54,642 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,642 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:54,643 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:54,648 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:54,648 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:49:54,659 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - Exception in thread "JavaFX Application Thread" java.lang.AssertionError: assertion failed: Window of main scene was null! - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at scala.Predef$.assert(Predef.scala:223) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.getWindowOfInput$1(SceneInputListener.scala:166) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processInput(SceneInputListener.scala:214) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processInputs(SceneInputListener.scala:132) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processOrRequest(SceneInputListener.scala:40) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.$anonfun$processOrRequest$2(SceneInputListener.scala:47) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51) - JavaFX Application Thread
+2025-02-27 22:49:54,661 [ERROR] in JavaFX Application Thread - 	at java.base/java.lang.Thread.run(Thread.java:1583) - JavaFX Application Thread
+2025-02-27 22:49:54,664 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:54,973 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:56,317 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:56,736 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:56,973 [INFO] in JavaFX Application Thread - Learn Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:57,213 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,594 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,595 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,595 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,595 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,595 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,595 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,596 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,598 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,600 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:49:57,600 [INFO] in JavaFX Application Thread - Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:57,600 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:57,600 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:57,600 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:57,605 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:49:57,605 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:49:57,614 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:49:57,627 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:49:59,870 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1HomeButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,046 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2HomeButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,048 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1LearnButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2LearnButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,050 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,051 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,051 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2MockTestButtonColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,051 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,051 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,051 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,052 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/1ReviewGameButtonGrey.png - JavaFX Application Thread
+2025-02-27 22:50:00,052 [INFO] in JavaFX Application Thread - 🔍 Attempting to load ImageView for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,052 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,052 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,053 [INFO] in JavaFX Application Thread - ✅ ImageView successfully loaded for: /images/2ReviewGameColored.png - JavaFX Application Thread
+2025-02-27 22:50:00,053 [INFO] in JavaFX Application Thread - Attempting to load sidebar background: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:50:00,053 [INFO] in JavaFX Application Thread - 🟡 loadBackground() called with path: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:50:00,053 [INFO] in JavaFX Application Thread - 🟠 Attempting to load image: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:50:00,053 [INFO] in JavaFX Application Thread - ✅ Image found! Loading: file:/C:/Users/julia/Desktop/APCSReview/target/classes/images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:50:00,059 [INFO] in JavaFX Application Thread - ✅ Background image loaded successfully: /images/MenuBGE.png - JavaFX Application Thread
+2025-02-27 22:50:00,059 [INFO] in JavaFX Application Thread - ✅ Sidebar background loaded successfully! - JavaFX Application Thread
+2025-02-27 22:50:00,068 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:00,068 [ERROR] in JavaFX Application Thread - Exception in thread "JavaFX Application Thread" java.lang.AssertionError: assertion failed: Window of main scene was null! - JavaFX Application Thread
+2025-02-27 22:50:00,068 [ERROR] in JavaFX Application Thread - 	at scala.Predef$.assert(Predef.scala:223) - JavaFX Application Thread
+2025-02-27 22:50:00,068 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.getWindowOfInput$1(SceneInputListener.scala:166) - JavaFX Application Thread
+2025-02-27 22:50:00,068 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processInput(SceneInputListener.scala:214) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processInputs(SceneInputListener.scala:132) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.processOrRequest(SceneInputListener.scala:40) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.jpro.meta.tk.SceneInputListener.$anonfun$processOrRequest$2(SceneInputListener.scala:47) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at simplefx.cores.standard.parts.CoreTimeEvent$$anon$3.run(CoreTimeEvent.scala:62) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.sun.glass.ui.monocle.RunnableProcessor.runLoop(RunnableProcessor.java:92) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at com.sun.glass.ui.monocle.RunnableProcessor.run(RunnableProcessor.java:51) - JavaFX Application Thread
+2025-02-27 22:50:00,069 [ERROR] in JavaFX Application Thread - 	at java.base/java.lang.Thread.run(Thread.java:1583) - JavaFX Application Thread
+2025-02-27 22:50:00,070 [INFO] in JavaFX Application Thread - Review Game Button - Hovered - JavaFX Application Thread
+2025-02-27 22:50:01,588 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:01,798 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:01,973 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,066 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,197 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,336 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,480 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,629 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,780 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:02,919 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,083 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,227 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,368 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,503 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,648 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,796 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:03,941 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,097 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,226 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,371 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,513 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,656 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,798 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:04,959 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,085 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,228 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,375 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,533 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,667 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,808 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:05,964 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,110 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,253 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,396 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,539 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,685 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,844 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:06,978 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,118 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,259 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.m.t.SceneInputListener - On disposing SceneInputListener: primaryScene.window was null. Skipped the forced release of the mouse. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,294 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - [JPro] -> View closed: {app_name: default, host_name: localhost:8080, instance_id: 1463815926, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - Application closed: - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - startTime      : Thu Feb 27 22:50:07 CST 2025       - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageLatency : 00:00:00.007  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - averageJitter  : 00:00:00.001   - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateServer: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - framerateClient: 00:00:00.000 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - raw            : 4049073 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ - zipped         : 580742 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:07,323 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.ViewInfo$ -  - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:08,301 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.c.InstanceImpl - [JPro] -> Instance closed: {app_name: default, host_name: localhost:8080, instance_id: 1463815926, browser: Opera 116.0.0.0, browser_url: http://localhost:8080/, client_ip: 0:0:0:0:0:0:0:1, reason: close-tab-closed} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,293 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - Parent process is not alive anymore. Shutting down. - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,295 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.a.i.l.c.CoordinatedShutdownSupport - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 2147508000 milliseconds timeout - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,296 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] a.a.CoordinatedShutdown - Running CoordinatedShutdown with reason [ServerStoppedReason] - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,298 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Stopping Akka HTTP server... - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,302 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Terminating server binding for /[0:0:0:0:0:0:0:0]:8080 - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,312 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] p.c.s.AkkaHttpServer - Running provided shutdown stop hooks - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,314 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.j.i.s.JProInitializer$ - [JPro] -> Server stopped: {running_time: 1m 41.145s, instances_count: 0, views_count: 0, os_name: Windows 11, jpro_version: 2025.1.0, reason: jvm-shutdown} - AsyncAppender-Worker-ASYNCSTDOUT
+2025-02-27 22:50:15,314 [INFO] in AsyncAppender-Worker-ASYNCSTDOUT - [[34mINFO [0;39m] c.jpro.activity - Closing the server -> used memory: 318 MB  -  free system memory: 6119 MB - AsyncAppender-Worker-ASYNCSTDOUT
