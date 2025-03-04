@@ -15,7 +15,7 @@ public class test extends JProApplication {
     private MockTestButtons mockTestInstance;
     private MockTestQuiz mockTestQuizInstance;
     private LearnButtons learnButtonsInstance;
-    //private videoQuiz videoQuizInstance;
+    private videoQuiz videoQuizInstance;
     private FRQStuff frqStuffInstance;
     //todo replace when quiz class is setup right, use as a backend way to handle different quizzes and class updates, keep UI seperated into UI classes
     @Override
@@ -43,12 +43,14 @@ public class test extends JProApplication {
                 removeInstance(i);
             }
             case 1 -> {
-                learnButtonsInstance = new LearnButtons();
-                mainStage.setScene(learnButtonsInstance.getLearnButtons(thisClassInstance));
-                if(gameInstance !=null){
-                    gameInstance.stopTimer();
-                }
-                removeInstance(i);
+                videoQuizInstance = new videoQuiz();
+                mainStage.setScene(videoQuizInstance.getVideoScene(thisClassInstance, 1, mainStage));
+                //learnButtonsInstance = new LearnButtons();
+                //mainStage.setScene(learnButtonsInstance.getLearnButtons(thisClassInstance));
+                //if(gameInstance !=null){
+                    //gameInstance.stopTimer();
+                //}
+                //removeInstance(i);
             }
             case 2 -> {
                 mockTestInstance = new MockTestButtons();
@@ -73,27 +75,27 @@ public class test extends JProApplication {
                 gameInstance = null;
                 mockTestInstance = null;
                 frqStuffInstance = null;
-                //videoQuizInstance = null;
+                videoQuizInstance = null;
             }
             case 1 ->{
                 homePageInstance = null;
                 mockTestInstance = null;
                 gameInstance = null;
                 frqStuffInstance = null;
-                //videoQuizInstance = null;
+                videoQuizInstance = null;
             }
             case 2 ->{
                 learnButtonsInstance = null;
                 gameInstance = null;
                 homePageInstance = null;
                 frqStuffInstance = null;
-                //videoQuizInstance = null;
+                videoQuizInstance = null;
             }
             case 3 ->{
                 homePageInstance = null;
                 mockTestInstance = null;
                 frqStuffInstance = null;
-                //videoQuizInstance = null;
+                videoQuizInstance = null;
                 learnButtonsInstance = null;
             }
             case 5->{
@@ -102,7 +104,7 @@ public class test extends JProApplication {
                 learnButtonsInstance = null;
                 gameInstance = null;
                 frqStuffInstance = null;
-                //videoQuizInstance = null;
+                videoQuizInstance = null;
             }
 
         }

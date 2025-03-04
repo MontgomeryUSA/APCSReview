@@ -3,3 +3,7 @@
 2025-02-24 22:08:43,938 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-7 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
 2025-02-25 20:42:01,889 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-10 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
 2025-02-27 22:48:38,389 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-9 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2025-03-03 21:52:56,113 [WARN] from controllers.jpro in application-akka.actor.default-dispatcher-8 - jpro.plainFile - Couldn't get resource for: 'jpro/html/favicon.ico'
+2025-03-03 21:55:18,107 [WARN] from javafx.css in JavaFX Application Thread - Resource "/com/jpro/samples/htmljpro/htmljpro.css" not found.
+2025-03-03 22:37:48,202 [WARN] from javafx.css in JavaFX Application Thread - Resource "/com/jpro/samples/htmljpro/htmljpro.css" not found.
+2025-03-03 22:41:29,702 [WARN] from javafx.css in JavaFX Application Thread - Resource "/com/jpro/samples/htmljpro/htmljpro.css" not found.

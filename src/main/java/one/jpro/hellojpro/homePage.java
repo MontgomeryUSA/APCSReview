@@ -163,6 +163,12 @@ public class homePage {
 
     // Event handlers
     private void handleLearnButtonClick(ActionEvent event) {
+        try {
+            testClassInstance.changeScene(1);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         System.out.println("Learn button clicked!");
     }
 

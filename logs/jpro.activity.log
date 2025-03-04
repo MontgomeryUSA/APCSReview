@@ -34,3 +34,17 @@
 2025-02-25 21:32:40,532 [INFO] in application-akka.actor.default-dispatcher-21 - Closing the server -> used memory: 182 MB  -  free system memory: 9193 MB
 2025-02-27 22:48:34,149 [INFO] in scala-execution-context-global-47 - Starting the server
 2025-02-27 22:50:15,314 [INFO] in application-akka.actor.default-dispatcher-20 - Closing the server -> used memory: 318 MB  -  free system memory: 6119 MB
+2025-03-03 21:52:51,624 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 21:54:32,754 [INFO] in application-akka.actor.default-dispatcher-6 - Closing the server -> used memory: 133 MB  -  free system memory: 6542 MB
+2025-03-03 21:55:13,279 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:29:33,666 [INFO] in application-akka.actor.default-dispatcher-14 - Closing the server -> used memory: 64 MB  -  free system memory: 9172 MB
+2025-03-03 22:37:44,416 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:37:56,500 [INFO] in application-akka.actor.default-dispatcher-11 - Closing the server -> used memory: 40 MB  -  free system memory: 8018 MB
+2025-03-03 22:41:25,682 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:42:26,797 [INFO] in application-akka.actor.default-dispatcher-5 - Closing the server -> used memory: 47 MB  -  free system memory: 7735 MB
+2025-03-03 22:44:35,784 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:44:55,886 [INFO] in application-akka.actor.default-dispatcher-9 - Closing the server -> used memory: 130 MB  -  free system memory: 7533 MB
+2025-03-03 22:45:49,762 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:46:09,851 [INFO] in application-akka.actor.default-dispatcher-8 - Closing the server -> used memory: 49 MB  -  free system memory: 7433 MB
+2025-03-03 22:47:30,873 [INFO] in scala-execution-context-global-47 - Starting the server
+2025-03-03 22:47:52,960 [INFO] in application-akka.actor.default-dispatcher-17 - Closing the server -> used memory: 48 MB  -  free system memory: 7455 MB
